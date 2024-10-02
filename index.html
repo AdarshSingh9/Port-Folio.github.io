@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>My Portfolio</h1>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="banner">
+    <h1>Welcome to My Portfolio</h1>
+</div>
+
+<section id="about" class="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+        <img src="./images/mypic.jpg" alt="My Photo" class="profile-photo">
+        <p>Hello! I'm a passionate developer with skills in web design and development. I enjoy creating clean and user-friendly websites and applications. With experience in HTML, CSS, JavaScript, and other web technologies, I aim to deliver visually appealing and responsive designs.</p>
+    </div>
+</section>
+
+<section id="resume">
+    <h2>My Resume</h2>
+    <p>Click the button below to view or download my resume.</p>
+    <a href="./images/Adarsh-Singh-FlowCV-Resume-20240914.pdf" target="_blank" class="resume-button">View Resume</a>
+</section>
+
+
+<section id="projects" class="projects">
+    <h2>My Projects</h2>
+    <div class="project-grid">
+        <div class="project-item">
+            <img src="./images/row-tops-heads-cats-dogs-260nw-1034939470.webp" alt="Project 1">
+            <h3>Pet Care and Solutions</h3>
+            <p>All pet need and solutions website made with html, css and JavaScript</p>
+        </div>
+        <div class="project-item">
+            <img src="./images/maxresdefault.jpg" alt="Project 2">
+            <h3>Simon Says Game</h3>
+            <p>A mind concentration game made with html, css and JavaScript</p>
+        </div>
+        <div class="project-item">
+            <img src="./images/Screenshot 2024-10-02 171827.png" alt="Project 3">
+            <h3>Personal Portfolio</h3>
+            <p>A Personal portfolio website made with html, css and JavaScript</p>
+        </div>
+    </div>
+</section>
+
+<section id="skills" class="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Responsive Design</li>
+        <li>Version Control (Git, GitHub)</li>
+        <li>JavaScript Frameworks (React, Vue)</li>
+        <li>JAVA</li>
+        <li>Python</li>
+    </ul>
+</section>
+
+<form id="contactForm">
+    <h1>Contact</h1>
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+</form>
+
+
+<section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: adarshcool9839@gmail.com</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Adarsh Singh. All rights reserved.</p>
+    <div class="social-media">
+        <a href="https://github.com/AdarshSingh9" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="https://leetcode.com/u/Adarsh_singh_9839/" target="_blank" rel="noopener noreferrer">
+            <img src="images/icons8-level-up-your-coding-skills-and-quickly-land-a-job-24.png" alt="LeetCode" class="social-icon"> <!-- Custom LeetCode icon -->
+        </a>
+        <a href="https://www.codechef.com/users/adarsh_singh_9" target="_blank" rel="noopener noreferrer">
+            <img src="images/icons8-codechef-50.png" alt="CodeChef" class="social-icon"> <!-- Custom CodeChef icon -->
+        </a>
+        <a href="https://www.instagram.com/adarsh_singh_.63/" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/adarsh-singh-7b4b12204/" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+    </div>
+</footer>
+
+<script src="app.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css">
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</body>
+</html>
